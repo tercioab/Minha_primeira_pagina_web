@@ -7,8 +7,12 @@
 html {
 	font-size: 10px;
 	font-family: "Montserrat", sans-serif;
+	scroll-behavior:smooth ;
 }
-html { scroll-behavior:smooth }
+#trybe , #trybe2 {
+	
+	color:#2fc18c
+}
 
 a {
 	text-decoration: none;
@@ -23,7 +27,7 @@ a {
 /* End Header section */
 
 /* service section */
-#services {}
+
 #services .services {
 	background-color: black;
 	flex-direction: column;
