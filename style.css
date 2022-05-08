@@ -150,22 +150,28 @@ a {
 }
 #hero h1 span {
 	position: absolute;
-	top: 100;
 	left: 0;
-	height: 90%;
-	width: 0;
+	height: 1%;
+	width: 0%;
 	background-color: white;
 	animation: text_reveal_box 5s ease;
 	animation-delay: 0.5s;
 }
+
+
+
+
 #hero h1:nth-child(1) span {
     animation-delay: 0.1s;
+	border-radius: 100cm;
 }
 #hero h1:nth-child(2) span {
     animation-delay: 0.2s;
+	border-radius: 100cm;
 }
 #hero h1:nth-child(3) span {
     animation-delay: 0.3s;
+	border-radius: 100cm;
 }
 #hero .cta {
 	display: inline-block;
@@ -179,9 +185,22 @@ a {
 	margin-top: auto;
 	transition: 2s;
 }
-#hero .cta:hover {
+
+#services-top #service-bottom #service-item  {
+	display: inline-block;
+	padding: 10px 30px;
 	color: white;
-	background-color: rgb(0, 0, 0);
+	background-color: transparent;
+	border: 2px solid WHITE;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: auto;
+	transition: 10s;
+}
+#hero .cta:hover {
+ color: black;
+ background-color: white;
 
 }
 
@@ -212,6 +231,7 @@ h1 { display: inline-block;
 	1% {
 		width: 2%;
 		left: 100%;
+		
 	}
 }
 @keyframes text_reveal {
