@@ -67,7 +67,7 @@ a {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 15px;
 	border-radius: 10px;
 	background-image: url(paratexto.jpg);
 	background-size: cover;
@@ -201,6 +201,8 @@ a {
 #hero .cta:hover {
  color: black;
  background-color: white;
+ transition: 10s;
+ border-radius: 10cm;
 
 }
 
