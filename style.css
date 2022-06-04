@@ -3,24 +3,17 @@
 	font-size: 100%;
 	scroll-behavior: smooth;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	
 }
 
 #hero {
 	display: flex;
-	
 	min-height: 100vh;
 	background-size: cover;
 	z-index: 100;
-	
-    
-	
+	background-color: #ffffff;
 }
 
-
 .box {
-	
-	
 	display: flex;
 
 	color: white;
@@ -29,25 +22,25 @@
 	padding-top: 20%;
 	transition: 1s;
 	letter-spacing: 0cm;
-	
-	justify-content:space-between;
+
+	justify-content: space-between;
 }
 
 .title {
 	margin-bottom: 10cm;
 	font-size: x-large;
-	letter-spacing: 0px;
+	letter-spacing: 2px;
 	transition: 0.5s;
 	color: #010440;
-	
+
 	/* color: #F2C230; */
-	
+
 	width: 15cm;
 }
 
 .title:hover {
 	font-size: x-large;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	transition: 1s;
 }
 .cta {
@@ -61,28 +54,21 @@
 	padding: 4px;
 	text-align: center;
 	transition: 1s;
-	background-color: #F2C230;
-	font-size:medium;
-	
+	background-color: #f2c230;
+	font-size: medium;
 }
 
-
-
-
-	
-
-hr {
+#hero hr {
 	margin-left: 1cm;
 	margin-bottom: 6cm;
-	background-color: #F2C230;
+	background-color: #f2c230;
 	width: 5px;
 	border: none;
 	transition: 1s;
 }
 
-
 h2 {
-	color: #F2C230;
+	color: #f2c230;
 }
 h1 {
 	color: #010440;
@@ -95,59 +81,59 @@ h1 {
 	background-color: #b8b8b8;
 	padding: 0.5cm;
 	position: fixed;
+	
+	transition: 1s;
+}
 
-	
+.header:hover {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #ffffff;
+	padding: 0.5cm;
+	position: fixed;
 
-	
-	
+	transition: 1s;
 }
 
 .tercio h1 {
-
 	color: #010440;
 	transition: 1s;
-	
 }
 
 .tercio h1:hover {
-
-	color: #ffffff;
+	color: #f2c230;
 	transition: 1s;
-	
 }
 
 .header a {
 	top: 0;
 	text-decoration: none;
-	font-size:medium;
+	font-size: medium;
 	font-weight: bold;
-	color: #F2C230;
+	color: #f2c230;
 	background-color: rgb(233, 233, 233);
-	padding: 0.6cm ;
+	padding: 0.6cm;
 	transition: 1s;
 	
-
 }
 
-
-.header a:hover  {
+.header a:hover {
 	top: 0;
 	text-decoration: none;
-	font-size:medium;
+	font-size: medium;
 	font-weight: bold;
-	color: #F2C230;
+	color: #f2c230;
 	background-color: rgb(233, 233, 233);
-	padding: 1cm ;
+	padding: 1cm;
 	transition: 1s;
-	
 }
 
 .tercio {
 	display: flex;
-	
 }
 
-.tercio p { 
+.tercio p {
 	font-weight: 100;
 	font-size: small;
 	margin-left: 0.2cm;
@@ -155,33 +141,36 @@ h1 {
 
 .servico2 {
 	display: flex;
-	
+
 	flex-direction: column;
 	align-items: center;
 }
 
-
-
-.service-item{
-	
-	border: solid rgb(226, 226, 226);
+.service-item {
 	padding: 1%;
 	width: 50%;
 	margin: 4px;
-	background-color: #b8b8b8;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
+	transition: 1s;
+}
+
+.service-item:hover{
+	padding: 1%;
+	width: 50%;
+	margin: 4px;
+	box-shadow: 10px 10px 2px 1px rgba(0, 0, 2, 0.2);
+	border-radius: 10px;
+	transition: 1s;
 }
 
 .service-item h2 {
 	color: #010440;
 	padding: 3px;
-
 }
 
 .service-item p {
-	
 	padding: 3px;
-
 }
 .servico {
 	width: 90%;
@@ -198,6 +187,29 @@ h1 {
 }
 
 #tercio {
-	text-decoration: none ;
+	text-decoration: none;
 }
 
+.servico h1 {
+	font-size:xx-large;
+	margin-bottom: 0.5cm;
+	transition: 1s;
+	
+	
+}
+
+.servico h1:hover {
+	font-size:xx-large;
+	margin-bottom: 0.5cm;
+	color: #f2c230;
+	transition: 1s;
+	
+	
+}
+
+
+hr {
+	
+	background-color: red;
+	
+}
