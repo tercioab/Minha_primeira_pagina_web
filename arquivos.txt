@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");    <--Montserrat-->
+
+https://img.icons8.com/ios/50/000000/org-unit--v1.png
+
+O Unix é um sistema operacional popular que foi lançado em 1969 e ganhou muitas das variações<br> que se tornaram os principais sistemas operacionais do mercado. 
+
+https://img.icons8.com/ios/50/000000/html.png
+
+HTML é uma linguagem de marcação utilizada na construção de páginas na Web.<br>Documentos HTML que podem ser interpretados por navegadores.
+
+https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-css-programming-and-coding-flatart-icons-outline-flatarticons-3.png
+
+Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. <br> O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags &LT;style&gt; <br> Também é possível, em vez de colocar a formatação dentro do documento, criar um link <br> para um arquivo CSS que contém os estilos.
+
+
+https://img.icons8.com/ios/50/000000/git.png
+
+O GitHub, é uma ferramenta online que hospeda repositórios Git,<br> é uma excelente ferramenta para toda a gestão de código, tendo recursos para acompanhamento <br> de projeto ágil de software, controle de Issues, quadros Kanban, Pull Requests que permitem um <br> Code Review mais bem feito, entre outras 
+                dezenas de integrações que facilitam a vida do desenvolvedor de software.
+
+

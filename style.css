@@ -1,268 +1,154 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 * {
-	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
-}
-html {
-	font-size: 10px;
-	font-family: "Montserrat", sans-serif;
-	scroll-behavior:smooth ;
-	background-color: black;
-}
-#trybe , #trybe2 {
+	font-size: 100%;
+	scroll-behavior: smooth;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	
-	color:#2fc18c
 }
 
-a {
-	text-decoration: none;
-}
-.container {
+#hero {
+	display: flex;
+	
 	min-height: 100vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-/* End Header section */
-
-/* service section */
-
-#services .services {
-	background-color: black;
-	flex-direction: column;
-	text-align: center;
-	margin: 0 auto;
-	padding: 100px 0;
-}
-#services .section-title{
-	font-size: 4rem;
-	font-weight: 300;
-	color: white;
-	margin-bottom: 18px;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	text-align: center;
-}
-#services .section-title span {
-	color: rgb(56, 56, 56);
-} 
-#services .service-top p{
-	font-size: 1.4rem;
-	margin-top: 5px;
-	line-height: 2.5rem;
-	font-weight: 300;
-	letter-spacing: .05rem;
-	color: white;
-	
-}
-#services .service-bottom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-#services .service-item {
-	flex-basis: 80%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	padding: 15px;
-	background-image: url(paratexto.jpg);
 	background-size: cover;
-	margin: 10px 5%;
-	position: relative;
 	z-index: 100;
 	
-}
-#services .service-item::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
-	z-index: -1;
+    
 	
 }
-#services :hover {
 
-	padding: 15px;
+
+.box {
+	
+	
+	display: flex;
+
+	color: white;
+	margin-left: 6cm;
+	flex-direction: row;
+	padding-top: 20%;
+	transition: 1s;
+	letter-spacing: 0cm;
+	/* border: solid red; */
+	justify-content:space-between;
+}
+
+.title {
+	margin-bottom: 10cm;
+	font-size: x-large;
+	letter-spacing: 0px;
+	transition: 0.5s;
+	color: #010440;
+	
+	/* color: #F2C230; */
+	
+	width: 15cm;
+}
+
+.title:hover {
+	font-size: x-large;
+	letter-spacing: 4px;
+	transition: 1s;
+}
+.cta {
+	width: 1cm;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 0.1cm;
+	margin-top: 2cm;
+	margin-left: 0cm;
+	padding: 4px;
+	text-align: center;
+	transition: 1s;
+	background-color: #F2C230;
+	font-size:medium;
+	
+}
+
+
+
+
+	
+
+hr {
+	margin-left: 1cm;
+	margin-bottom: 6cm;
+	background-color: #F2C230;
+	width: 5px;
+	border: none;
+	transition: 1s;
+}
+
+
+h2 {
+	color: #F2C230;
+}
+h1 {
+	color: #010440;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #b8b8b8;
+	padding: 0.5cm;
+	position: fixed;
+
+	
+
+	
+	
+}
+
+.tercio h1 {
+
+	color: #010440;
+	transition: 1s;
+	
+}
+
+.tercio h1:hover {
+
+	color: #ffffff;
+	transition: 1s;
+	
+}
+
+.header a {
+	top: 0;
+	text-decoration: none;
+	font-size:medium;
+	font-weight: bold;
+	color: #F2C230;
+	background-color: rgb(233, 233, 233);
+	padding: 0.6cm ;
 	transition: 1s;
 	
 
-
 }
 
-#services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
-}
-#services .service-item h2 {
-	font-size: 2rem;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	border-radius: 2cm;
-}
-#services .service-item p {
-	color: white;
-	text-align: left;
-}
-/* end service section */
 
-
-/* Hero section */
-#hero {
-	background-image: url(mundofundo.jpg);
-	background-size: cover;
-	background-position: top center;
-	position: relative;
-	z-index: 1;
-}
-#hero::after {
-	content: '';
-	position: absolute;
-	left: 0;
+.header a:hover  {
 	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.5;
-	z-index: -1;
-}
-#hero .hero {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 50px;
-	justify-content: flex-start;
-}
-#hero h1 {
-	display: block;
-	width: fit-content;
-	font-size: 4rem;
-	position: relative;
-	color: transparent;
-	animation: text_reveal 1.5s ease forwards;
-    animation-delay: 10s;
-}
-#hero h1:nth-child(1) {
-	animation-delay: 0.7s;
-}
-#hero h1:nth-child(2) {
-	animation-delay: 0.8s;
-}
-#hero h1:nth-child(3) {
-	animation: text_reveal_name s ease forwards;
-	animation-delay: 0.9s;
-}
-#hero h1 span {
-	position: absolute;
-	left: 0;
-	height: 1%;
-	width: 0%;
-	background-color: white;
-	animation: text_reveal_box 5s ease;
-	animation-delay: 0.5s;
-}
-
-
-
-
-#hero h1:nth-child(1) span {
-    animation-delay: 0.1s;
-	border-radius: 100cm;
-}
-#hero h1:nth-child(2) span {
-    animation-delay: 0.2s;
-	border-radius: 100cm;
-}
-#hero h1:nth-child(3) span {
-    animation-delay: 0.3s;
-	border-radius: 100cm;
-}
-#hero .cta {
-	display: inline-block;
-	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid WHITE;
-	font-size: 1rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-top: auto;
-	transition: 2s;
-}
-
-#services-top #service-bottom #service-item  {
-	display: inline-block;
-	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid WHITE;
-	font-size: 1rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-top: auto;
-	transition: 10s;
-}
-#hero .cta:hover {
- color: black;
- background-color: white;
- transition: 10s;
- border-radius: 10cm;
-
-}
-
-h1 { display: inline-block; 
-	padding: 0,1px 30px; 
-	color: white; 
-	background-color: transparent; 
-	font-size: 10rem; 
-	text-transform: uppercase; 
-	letter-spacing: 0.1rem; 
-	margin-top: 0,3px; 
-	transition: 2s;
- } 
+	text-decoration: none;
+	font-size:medium;
+	font-weight: bold;
+	color: #F2C230;
+	background-color: rgb(233, 233, 233);
+	padding: 1cm ;
+	transition: 1s;
 	
-	h1:hover { 
-		padding: 10px 40px; 
-		letter-spacing: 1rem ; 
-	}
-
-/* end hero section */
-
-/* keyframes */
-@keyframes text_reveal_box {
-	40% {
-		width: 0%;
-		left: 0%;
-	}
-	1% {
-		width: 2%;
-		left: 100%;
-		
-	}
-}
-@keyframes text_reveal {
-    100% {
-        color: white;
-    }
-}
-@keyframes text_reveal_name {
-    100% {
-        color: white;
-        font-weight: 500;
-    }
 }
 
+.tercio {
+	display: flex;
 	
+}
 
-
-
-/* end keyframes */
+.tercio p { 
+	font-weight: 100;
+	font-size: small;
+	margin-left: 0.2cm;
+}
