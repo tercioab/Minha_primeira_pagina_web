@@ -29,7 +29,7 @@
 	padding-top: 20%;
 	transition: 1s;
 	letter-spacing: 0cm;
-	/* border: solid red; */
+	
 	justify-content:space-between;
 }
 
@@ -152,3 +152,52 @@ h1 {
 	font-size: small;
 	margin-left: 0.2cm;
 }
+
+.servico2 {
+	display: flex;
+	
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.service-item{
+	
+	border: solid rgb(226, 226, 226);
+	padding: 1%;
+	width: 50%;
+	margin: 4px;
+	background-color: #b8b8b8;
+	border-radius: 10px;
+}
+
+.service-item h2 {
+	color: #010440;
+	padding: 3px;
+
+}
+
+.service-item p {
+	
+	padding: 3px;
+
+}
+.servico {
+	width: 90%;
+
+	padding: 1cm;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bolder;
+}
+
+.trybe {
+	text-decoration: none;
+}
+
+#tercio {
+	text-decoration: none ;
+}
+
