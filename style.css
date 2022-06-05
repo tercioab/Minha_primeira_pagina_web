@@ -68,6 +68,8 @@
 	background-color: #000000;
 	font-size: medium;
 	box-shadow: 10px 10px 2px 1px rgba(0, 0, 2, 0.2);
+	
+
 }
 
 #hero hr {
@@ -93,8 +95,10 @@ h1 {
 	background-color: #0e0e0e;
 	padding: 0.5cm;
 	position: fixed;
-
 	transition: 1s;
+
+	
+	
 }
 
 .tercio h1 {
@@ -127,6 +131,7 @@ h1 {
 	background-color: rgb(0, 0, 0);
 	padding: 1cm;
 	transition: 1s;
+	
 }
 
 .tercio {
@@ -340,8 +345,22 @@ input:hover {
 }
 
 .shadow {
-	border: black 1px solid;
-	opacity: 0.4;
+	border:  1px solid #f2c230;
+	
+}
+
+.hrfalecomigo {
+
+	border:  1px solid #f2c230;
+
+
+}
+
+hr {
+
+	border:  1px solid #f2c230;
+
+
 }
 
 .botao {
@@ -363,7 +382,7 @@ input:hover {
 .botao:hover {
 	width: 1cm;
 	background-color: #f2c230;
-	
+
 	color: #000000;
 	border-radius: 0.1cm;
 	margin-top: 2cm;
@@ -472,3 +491,7 @@ input:hover {
 
 	
 }
+
+
+
+
