@@ -44,7 +44,7 @@
 .cta {
 	width: 1cm;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	border-radius: 0.1cm;
 	margin-top: 2cm;
 	margin-left: 0cm;
@@ -53,12 +53,13 @@
 	transition: 1s;
 	background-color: #f2c230;
 	font-size: medium;
+	border: none;
 }
 
 .cta:hover {
 	width: 1cm;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: #f2c230;
 	border-radius: 0.1cm;
 	margin-top: 2cm;
 	margin-left: 0cm;
@@ -68,6 +69,7 @@
 	background-color: #000000;
 	font-size: medium;
 	box-shadow: 10px 10px 2px 1px rgba(0, 0, 2, 0.2);
+
 	
 
 }
@@ -93,6 +95,7 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	background-color: #0e0e0e;
+	flex-wrap: nowrap;
 	padding: 0.5cm;
 	position: fixed;
 	transition: 1s;
@@ -100,6 +103,8 @@ h1 {
 	
 	
 }
+
+
 
 .tercio h1 {
 	color: #f2c230;
