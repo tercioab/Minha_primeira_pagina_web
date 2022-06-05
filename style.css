@@ -15,11 +15,11 @@
 
 .box {
 	display: flex;
-
+   
 	color: white;
 	margin-left: 6cm;
 	flex-direction: row;
-	padding-top: 20%;
+	padding-top: 24%;
 	transition: 1s;
 	letter-spacing: 0cm;
 
