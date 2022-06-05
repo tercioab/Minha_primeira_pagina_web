@@ -17,6 +17,16 @@
     
 }
 
+.tercio h1 {
+	color: #f2c230;
+	transition: 1s;
+}
+
+.tercio h1:hover {
+	color: #ffffff;
+	transition: 1s;
+}
+
 .header a {
 	top: 0;
 	text-decoration: none;
