@@ -198,18 +198,7 @@ h1 {
 	color: #f2c230;
 }
 
-.servico h1 {
-	font-size: xx-large;
-	margin-bottom: 0.5cm;
-	transition: 1s;
-}
 
-.servico h1:hover {
-	font-size: xx-large;
-	margin-bottom: 0.5cm;
-	color: #f2c230;
-	transition: 1s;
-}
 
 hr {
 	background-color: red;
@@ -390,4 +379,96 @@ input:hover {
 
 #walthercio {
 	color:#f2c230;
+}
+
+
+.servico h1 {
+	font-size: xx-large;
+	margin-bottom: 0.5cm;
+	transition: 1s;
+}
+
+.h:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+.a:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+
+.b:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.i:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.l:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.i:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.d:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.a:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.d:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.e:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.s:hover {
+	color: #000000;
+	transition: 1s;
+
+}
+
+
+.servico h1:hover {
+
+	color: #f2c230;
+
+
+	
 }
